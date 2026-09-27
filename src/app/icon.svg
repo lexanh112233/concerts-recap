@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="ticket-notch">
+      <rect x="0" y="0" width="32" height="32" fill="white"/>
+      <circle cx="22" cy="6" r="2.6" fill="black"/>
+      <circle cx="22" cy="26" r="2.6" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="2" y="6" width="28" height="20" rx="3.5" fill="#C1481D" mask="url(#ticket-notch)"/>
+  <line x1="22" y1="7.5" x2="22" y2="24.5" stroke="#F7F5F1" stroke-width="1.6" stroke-dasharray="2.4 2.4" stroke-linecap="round"/>
+  <path d="M11 12.5 L12.6 15.6 L16 16.1 L13.5 18.5 L14.1 21.9 L11 20.3 L7.9 21.9 L8.5 18.5 L6 16.1 L9.4 15.6 Z" fill="#F7F5F1"/>
+</svg>
